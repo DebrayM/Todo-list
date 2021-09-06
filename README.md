@@ -5,7 +5,7 @@ Créez un dossier `todo` contenant une page `index.html`, `list.js` et `todo.js`
 ## Etape #1
 
 Dans le fichier `index.html`, ajoutez l'élément HTML `ul` vide pour le moment.  
-Dans le fichier `list.js`, créez un tableau JS contenant les informations suivantes : 
+Dans le fichier `list.js`, créez un tableau contenant les informations suivantes : 
 * UI Design
 * UX Design
 * JavaScript
