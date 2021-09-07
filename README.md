@@ -16,6 +16,8 @@ Dans le fichier `list.js`, créez un tableau contenant les informations suivante
 
 Grâce à une boucle, récupérez les éléments du tableau et affichez-les dans la `ul` vide du fichier `index.html`.
 
+> N'oubliez pas comment est consituter une liste `ul` et que vous travaillez avec le DOM ;)
+
 ## Etape #2
 
 Dans le fichier `todo.js`, appliquez un écouteur d'évènement sur chaque élément de la liste `ul` qui exécutera la fonction `editItem` au clic.
