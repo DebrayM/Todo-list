@@ -16,7 +16,7 @@ Dans le fichier `list.js`, créez un tableau contenant les informations suivante
 
 Grâce à une boucle, récupérez les éléments du tableau et affichez-les dans la `ul` vide du fichier `index.html`.
 
-> N'oubliez pas comment est consituter une liste `ul` et que vous travaillez avec le DOM ;)
+> N'oubliez pas comment est consituté une liste `ul` et que vous travaillez avec le DOM ;)
 
 ## Etape #2
 
