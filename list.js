@@ -15,10 +15,5 @@ window.onload = function() {
     let additem = document.getElementById('bnt');
     additem.addEventListener('click', NewItem);
 
-    let del = document.querySelectorAll("button");
-    for (let i=0; i<del.length; i++) {
-        del[i].addEventListener('click', deleteItem);
-    }
-
 }
 

@@ -4,6 +4,11 @@ function listenList() {
     for (let i=0; i<a.length; i++) {
         a[i].addEventListener('click', editItem);
     }
+
+    let del = document.querySelectorAll("button");
+    for (let i=0; i<del.length; i++) {
+        del[i].addEventListener('click', deleteItem);
+    }
 }
 
 function editItem() {
@@ -23,12 +28,14 @@ function NewItem() {
         let parentUl = document.getElementById("ulList");
         parentUl.innerHTML += '<li><span>' + resp + '</span><button type"button">Supprimer</button></li>';
     }
-
+    
+    listenList() 
 }
 
 function deleteItem () {
     let r = confirm("Voulez-vous vraiment supprimer cet item ?");
-    if (r==true) {
+    if (r) {
         this.parentNode.remove();
     }
+
 }
